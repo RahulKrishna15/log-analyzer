@@ -1,0 +1,13 @@
+2026-11-09 10:01:12 INFO  Server started on port 8080
+2026-11-09 10:01:45 INFO  User login: alice
+2026-11-09 10:02:03 WARN  Slow response: 1200ms
+2026-11-09 10:02:10 ERROR Database connection failed
+2026-11-09 10:02:11 ERROR Database connection failed
+2026-11-09 10:02:30 INFO  User login: bob
+this line is broken and should be skipped
+2026-11-09 10:02:44 DEBUG unknown level should be skipped
+
+2026-11-09 10:03:05 ERROR Timeout calling payment service
+2026-11-09 10:03:40 WARN  Disk usage at 85%
+2026-11-09 10:04:02 ERROR Database connection failed
+2026-11-09 10:04:15 INFO  User logout: alice
